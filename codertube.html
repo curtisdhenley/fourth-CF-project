@@ -50,20 +50,21 @@
         </nav>
     </header>
 
-    <main class="content container-fluid d-flex">
+    <main class="content container-fluid">
         <div class="row">
-            <div class="col-md-2 col-sm-1">
+            <!-- icon and description sidebar -->
+            <div class="col-2">
                 <p>
-                    <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
-                        aria-expanded="false" aria-controls="collapseWidthExample">
+                    <button class="btn btn-dark" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseWidthExample" aria-expanded="false"
+                        aria-controls="collapseWidthExample">
                         <i class="bi bi-list"></i>
                     </button>
                 </p>
-                <!-- icon and description sidebar -->
                 <aside class="d-none d-md-block">
                     <div class="collapse collapse-horizontal" id="collapseWidthExample">
                         <!--btn group 1 -->
-                        <div class="border-bottom">
+                        <div class="border-bottom mb-3">
                             <button disabled="disabled" class="btn btn-sm btn-link text-decoration-none d-flex">
                                 <i class="bi bi-house me-2"></i>
                                 <h5>Home</h5>
@@ -72,24 +73,24 @@
                                 <i class="bi bi-record-circle me-2"></i>
                                 <h5>Shorts</h5>
                             </button>
-                            <button disabled="disabled" class="btn btn-sm btn-link text-decoration-none d-flex">
+                            <button disabled="disabled" class="btn btn-sm btn-link text-decoration-none d-flex mb-3">
                                 <i class="bi bi-play-btn me-2"></i>
                                 <h5>Subscriptions</h5>
                             </button>
                         </div>
                         <!--btn group 2 -->
-                        <div class="border-bottom">
+                        <div class="border-bottom mb-3">
                             <button disabled="disabled" class="btn btn-sm btn-link text-decoration-none d-flex">
                                 <i class="bi bi-book me-2"></i>
                                 <h5>Library</h5>
                             </button>
-                            <button disabled="disabled" class="btn btn-sm btn-link text-decoration-none d-flex">
+                            <button disabled="disabled" class="btn btn-sm btn-link text-decoration-none d-flex mb-3">
                                 <i class="bi bi-clock me-2"></i>
                                 <h5>History</h5>
                             </button>
                         </div>
                         <!--btn group 3 -->
-                        <div class="border-bottom">
+                        <div class="border-bottom mb-3">
                             <button disabled="disabled" class="btn btn-sm btn-link text-decoration-none d-flex">
                                 <i class="bi bi-fire me-2"></i>
                                 <h5>Trending</h5>
@@ -126,7 +127,7 @@
                                 <i class="bi bi-handbag me-2"></i>
                                 <h5>Fashion</h5>
                             </button>
-                            <button disabled="disabled" class="btn btn-sm btn-link text-decoration-none d-flex">
+                            <button disabled="disabled" class="btn btn-sm btn-link text-decoration-none d-flex mb-3">
                                 <i class="bi bi-broadcast-pin me-2"></i>
                                 <h5>Podcasts</h5>
                             </button>
@@ -205,125 +206,128 @@
                     </div>
                 </aside>
             </div>
-        </div>
-        <div class="row row-cols-1 g-2">
-            <div class="col-sm-6 col-lg-3 col-md-4 g-2">
-                <div class="card text-light h-100">
-                    <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
-                    <div class="card-body bg-dark border border-secondary-subtle">
-                        <h5 class="card-title lead">Video Title</h5>
-                        <p class="card-text">Channel Name</p>
-                        <p>1.2M Views • Uploaded 4 days ago</p>
+            <!-- video display -->
+            <div class="col-10">
+                <div class="row row-cols-1 g-2">
+                    <div class="col-sm-6 col-lg-3 col-md-4 g-2">
+                        <div class="card text-light h-100">
+                            <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
+                            <div class="card-body bg-dark border border-secondary-subtle">
+                                <h5 class="card-title lead">Video Title</h5>
+                                <p class="card-text">Channel Name</p>
+                                <p>1.2M Views • Uploaded 4 days ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 col-md-4 g-2">
-                <div class="card text-light h-100">
-                    <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
-                    <div class="card-body bg-dark border border-secondary-subtle">
-                        <h5 class="card-title lead">Video Title</h5>
-                        <p class="card-text">Channel Name</p>
-                        <p>1.2M Views • Uploaded 4 days ago</p>
+                    <div class="col-sm-6 col-lg-3 col-md-4 g-2">
+                        <div class="card text-light h-100">
+                            <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
+                            <div class="card-body bg-dark border border-secondary-subtle">
+                                <h5 class="card-title lead">Video Title</h5>
+                                <p class="card-text">Channel Name</p>
+                                <p>1.2M Views • Uploaded 4 days ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 col-md-4 g-2">
-                <div class="card text-light h-100">
-                    <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
-                    <div class="card-body bg-dark border border-secondary-subtle">
-                        <h5 class="card-title lead">Video Title</h5>
-                        <p class="card-text">Channel Name</p>
-                        <p>1.2M Views • Uploaded 4 days ago</p>
+                    <div class="col-sm-6 col-lg-3 col-md-4 g-2">
+                        <div class="card text-light h-100">
+                            <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
+                            <div class="card-body bg-dark border border-secondary-subtle">
+                                <h5 class="card-title lead">Video Title</h5>
+                                <p class="card-text">Channel Name</p>
+                                <p>1.2M Views • Uploaded 4 days ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 col-md-4 g-2">
-                <div class="card text-light h-100">
-                    <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
-                    <div class="card-body bg-dark border border-secondary-subtle">
-                        <h5 class="card-title lead">Video Title</h5>
-                        <p class="card-text">Channel Name</p>
-                        <p>1.2M Views • Uploaded 4 days ago</p>
+                    <div class="col-sm-6 col-lg-3 col-md-4 g-2">
+                        <div class="card text-light h-100">
+                            <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
+                            <div class="card-body bg-dark border border-secondary-subtle">
+                                <h5 class="card-title lead">Video Title</h5>
+                                <p class="card-text">Channel Name</p>
+                                <p>1.2M Views • Uploaded 4 days ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 col-md-4 g-2">
-                <div class="card text-light h-100">
-                    <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
-                    <div class="card-body bg-dark border border-secondary-subtle">
-                        <h5 class="card-title lead">Video Title</h5>
-                        <p class="card-text">Channel Name</p>
-                        <p>1.2M Views • Uploaded 4 days ago</p>
+                    <div class="col-sm-6 col-lg-3 col-md-4 g-2">
+                        <div class="card text-light h-100">
+                            <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
+                            <div class="card-body bg-dark border border-secondary-subtle">
+                                <h5 class="card-title lead">Video Title</h5>
+                                <p class="card-text">Channel Name</p>
+                                <p>1.2M Views • Uploaded 4 days ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 col-md-4 g-2">
-                <div class="card text-light h-100">
-                    <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
-                    <div class="card-body bg-dark border border-secondary-subtle">
-                        <h5 class="card-title lead">Video Title</h5>
-                        <p class="card-text">Channel Name</p>
-                        <p>1.2M Views • Uploaded 4 days ago</p>
+                    <div class="col-sm-6 col-lg-3 col-md-4 g-2">
+                        <div class="card text-light h-100">
+                            <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
+                            <div class="card-body bg-dark border border-secondary-subtle">
+                                <h5 class="card-title lead">Video Title</h5>
+                                <p class="card-text">Channel Name</p>
+                                <p>1.2M Views • Uploaded 4 days ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 col-md-4 g-2">
-                <div class="card text-light h-100">
-                    <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
-                    <div class="card-body bg-dark border border-secondary-subtle">
-                        <h5 class="card-title lead">Video Title</h5>
-                        <p class="card-text">Channel Name</p>
-                        <p>1.2M Views • Uploaded 4 days ago</p>
+                    <div class="col-sm-6 col-lg-3 col-md-4 g-2">
+                        <div class="card text-light h-100">
+                            <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
+                            <div class="card-body bg-dark border border-secondary-subtle">
+                                <h5 class="card-title lead">Video Title</h5>
+                                <p class="card-text">Channel Name</p>
+                                <p>1.2M Views • Uploaded 4 days ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 col-md-4 g-2">
-                <div class="card text-light h-100">
-                    <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
-                    <div class="card-body bg-dark border border-secondary-subtle">
-                        <h5 class="card-title lead">Video Title</h5>
-                        <p class="card-text">Channel Name</p>
-                        <p>1.2M Views • Uploaded 4 days ago</p>
+                    <div class="col-sm-6 col-lg-3 col-md-4 g-2">
+                        <div class="card text-light h-100">
+                            <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
+                            <div class="card-body bg-dark border border-secondary-subtle">
+                                <h5 class="card-title lead">Video Title</h5>
+                                <p class="card-text">Channel Name</p>
+                                <p>1.2M Views • Uploaded 4 days ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 col-md-4 g-2">
-                <div class="card text-light h-100">
-                    <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
-                    <div class="card-body bg-dark border border-secondary-subtle">
-                        <h5 class="card-title lead">Video Title</h5>
-                        <p class="card-text">Channel Name</p>
-                        <p>1.2M Views • Uploaded 4 days ago</p>
+                    <div class="col-sm-6 col-lg-3 col-md-4 g-2">
+                        <div class="card text-light h-100">
+                            <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
+                            <div class="card-body bg-dark border border-secondary-subtle">
+                                <h5 class="card-title lead">Video Title</h5>
+                                <p class="card-text">Channel Name</p>
+                                <p>1.2M Views • Uploaded 4 days ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 col-md-4 g-2">
-                <div class="card text-light h-100">
-                    <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
-                    <div class="card-body bg-dark border border-secondary-subtle">
-                        <h5 class="card-title lead">Video Title</h5>
-                        <p class="card-text">Channel Name</p>
-                        <p>1.2M Views • Uploaded 4 days ago</p>
+                    <div class="col-sm-6 col-lg-3 col-md-4 g-2">
+                        <div class="card text-light h-100">
+                            <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
+                            <div class="card-body bg-dark border border-secondary-subtle">
+                                <h5 class="card-title lead">Video Title</h5>
+                                <p class="card-text">Channel Name</p>
+                                <p>1.2M Views • Uploaded 4 days ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 col-md-4 g-2">
-                <div class="card text-light h-100">
-                    <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
-                    <div class="card-body bg-dark border border-secondary-subtle">
-                        <h5 class="card-title lead">Video Title</h5>
-                        <p class="card-text">Channel Name</p>
-                        <p>1.2M Views • Uploaded 4 days ago</p>
+                    <div class="col-sm-6 col-lg-3 col-md-4 g-2">
+                        <div class="card text-light h-100">
+                            <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
+                            <div class="card-body bg-dark border border-secondary-subtle">
+                                <h5 class="card-title lead">Video Title</h5>
+                                <p class="card-text">Channel Name</p>
+                                <p>1.2M Views • Uploaded 4 days ago</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 col-md-4 g-2">
-                <div class="card text-light h-100">
-                    <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
-                    <div class="card-body bg-dark border border-secondary-subtle">
-                        <h5 class="card-title lead">Video Title</h5>
-                        <p class="card-text">Channel Name</p>
-                        <p>1.2M Views • Uploaded 4 days ago</p>
+                    <div class="col-sm-6 col-lg-3 col-md-4 g-2">
+                        <div class="card text-light h-100">
+                            <img src="/img/play-btn(2).png" class="card-img-top img-thumbnail bg-secondary" alt="...">
+                            <div class="card-body bg-dark border border-secondary-subtle">
+                                <h5 class="card-title lead">Video Title</h5>
+                                <p class="card-text">Channel Name</p>
+                                <p>1.2M Views • Uploaded 4 days ago</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
