@@ -1,9 +1,15 @@
-i, h5 {
-    color: white !important;
-    margin-top: 5% !important;
+.line-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
 }
 
-i {
-    margin-right: 10%;
+.sticky-sidebar {
+    height: 100vh;
+    overflow-y: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1rem;
 }
 
